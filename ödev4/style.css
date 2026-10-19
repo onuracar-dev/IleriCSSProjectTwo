@@ -522,3 +522,60 @@ body {
   color: var(--wf-beyaz);
   border-color: var(--wf-metin-ana);
 }
+
+.en-alt-bilgi {
+  background-color: var(--wf-siyah);
+  color: #9ca3af;
+  padding: 30px 0;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.en-alt-kapsayici {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.en-alt-sol {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.en-alt-orta {
+  display: flex;
+  justify-content: center;
+}
+
+.yukari-cik-dugmesi {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px dashed #4b5563;
+  color: var(--wf-beyaz);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.yukari-cik-dugmesi:hover {
+  background-color: #222;
+  border-color: var(--wf-beyaz);
+}
+
+.en-alt-sag {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.en-alt-sag a {
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.en-alt-sag a:hover {
+  text-decoration: underline;
+}
