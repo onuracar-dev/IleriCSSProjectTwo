@@ -224,5 +224,21 @@
     </div>
   </footer>
 
-  </body>
+  <script>
+    const menuDugmesi = document.getElementById('menu-tetikleyici');
+    const yanPaneli = document.getElementById('yan-menu-paneli');
+
+    menuDugmesi.addEventListener('click', function () {
+      menuDugmesi.classList.toggle('aktif');
+      yanPaneli.classList.toggle('acik');
+    });
+
+    document.querySelectorAll('.yan-menu-paneli-eleman a').forEach(function (baglanti) {
+      baglanti.addEventListener('click', function () {
+        menuDugmesi.classList.remove('aktif');
+        yanPaneli.classList.remove('acik');
+      });
+    });
+  </script>
+</body>
 </html>
