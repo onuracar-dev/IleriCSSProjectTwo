@@ -412,3 +412,38 @@ body {
   line-height: 1.7;
   max-width: 440px;
 }
+
+.cagri-bolumu {
+  padding: 90px 0;
+  background-color: var(--wf-beyaz);
+}
+
+.cagri-kapsayici {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cagri-baslik {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  letter-spacing: -0.5px;
+}
+
+.cagri-metin {
+  font-size: 16px;
+  color: var(--wf-metin-ikincil);
+  margin-bottom: 28px;
+}
+
+.dugme-dolu {
+  background-color: var(--wf-metin-ana);
+  color: var(--wf-beyaz);
+  border: 2px solid var(--wf-metin-ana);
+}
+
+.dugme-dolu:hover {
+  background-color: #374151;
+  border-color: #374151;
+}
