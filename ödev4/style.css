@@ -357,3 +357,58 @@ body {
   font-size: 13px;
   color: var(--wf-metin-acik);
 }
+
+.ozellikler-bolumu {
+  padding: 100px 0;
+}
+
+.ozellikler-izgara {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 50px;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.ozellik-karti {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ozellik-gorsel-kutusu {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px dashed var(--wf-kenarlik);
+  background-color: var(--wf-arkaplan);
+  margin-bottom: 24px;
+  aspect-ratio: 16 / 10;
+}
+
+.ozellik-gorsel {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.ozellik-karti:hover .ozellik-gorsel {
+  transform: scale(1.02);
+}
+
+.ozellik-baslik {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--wf-metin-ana);
+  margin-bottom: 12px;
+}
+
+.ozellik-metin {
+  font-size: 15px;
+  color: var(--wf-metin-ikincil);
+  line-height: 1.7;
+  max-width: 440px;
+}
