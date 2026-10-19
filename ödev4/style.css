@@ -447,3 +447,78 @@ body {
   background-color: #374151;
   border-color: #374151;
 }
+
+.alt-menu-bolumu {
+  background-color: var(--wf-arkaplan);
+  padding: 70px 0 50px 0;
+  border-top: 1px dashed var(--wf-kenarlik);
+}
+
+.alt-menu-izgara {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.alt-menu-sutun-baslik {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: var(--wf-metin-ana);
+  margin-bottom: 18px;
+}
+
+.alt-menu-liste {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.alt-menu-liste a {
+  color: var(--wf-metin-ikincil);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.alt-menu-liste a:hover {
+  color: var(--wf-siyah);
+  text-decoration: underline;
+}
+
+.sosyal-ikonlar-alani {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed var(--wf-kenarlik);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.sosyal-ikon-dugme {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px dashed var(--wf-kenarlik-koyu);
+  background-color: var(--wf-beyaz);
+  color: var(--wf-metin-ikincil);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.sosyal-ikon-dugme:hover {
+  background-color: var(--wf-metin-ana);
+  color: var(--wf-beyaz);
+  border-color: var(--wf-metin-ana);
+}
