@@ -280,3 +280,80 @@ body {
   background-color: var(--wf-metin-ana);
   color: var(--wf-beyaz);
 }
+
+.referanslar-bolumu {
+  background-color: var(--wf-arkaplan);
+  padding: 90px 0;
+  border-top: 1px dashed var(--wf-kenarlik);
+  border-bottom: 1px dashed var(--wf-kenarlik);
+}
+
+.referans-kutusu {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.referans-satiri {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.referans-satiri-ters {
+  flex-direction: row-reverse;
+}
+
+.referans-gorsel-alani {
+  flex-shrink: 0;
+}
+
+.referans-profil {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 4px solid var(--wf-beyaz);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  object-fit: cover;
+  background-color: var(--wf-orta-gri);
+  display: block;
+}
+
+.referans-icerik {
+  flex-grow: 1;
+}
+
+.referans-alinti {
+  font-size: 20px;
+  font-style: italic;
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 28px;
+}
+
+.referans-alinti::before {
+  content: "“";
+  font-size: 54px;
+  font-family: Georgia, serif;
+  color: var(--wf-kenarlik-koyu);
+  position: absolute;
+  left: 0;
+  top: -16px;
+  line-height: 1;
+}
+
+.referans-yazar {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--wf-metin-ana);
+  text-transform: capitalize;
+}
+
+.referans-unvan {
+  font-size: 13px;
+  color: var(--wf-metin-acik);
+}
