@@ -12,11 +12,8 @@
   --wf-metin-ana: #111827;
   --wf-metin-ikincil: #4b5563;
   --wf-metin-acik: #6b7280;
-  --wf-vurgu: #2563eb;
   --wf-siyah: #000000;
-  --wf-koyu-gri: #1f2937;
   --wf-orta-gri: #e5e7eb;
-  --wf-acik-gri: #f9fafb;
   --wf-yan-menu-genislik: 70px;
 }
 
@@ -77,10 +74,6 @@ body {
   background-color: #222;
   border: 1px dashed var(--wf-kenarlik-koyu);
   border-radius: 4px;
-  color: var(--wf-beyaz);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 14px;
 }
 
 .yan-menu-logo img {
@@ -142,11 +135,6 @@ body {
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 1px;
-  transition: color 0.2s ease;
-}
-
-.yan-menu-baglanti:hover {
-  color: var(--wf-beyaz);
 }
 
 .yan-menu-paneli {
@@ -156,7 +144,6 @@ body {
   width: 320px;
   height: 100vh;
   background-color: rgba(17, 24, 39, 0.98);
-  backdrop-filter: blur(8px);
   border-left: 1px dashed #374151;
   padding: 40px 30px;
   transform: translateX(100%);
